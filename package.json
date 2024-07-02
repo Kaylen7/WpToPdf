@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Puppeteer tools for daily usage",
+  "scripts": {
+    "wptopdf": "ts-node tools/wptopdf.ts",
+    "wptopdf_dbg": "NODE_ENV=debug ts-node tools/wptopdf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Kaylen7/WpToPdf.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Sara <>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaylen7/WpToPdf/issues"
+  },
+  "homepage": "https://github.com/Kaylen7/WpToPdf#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.12.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
